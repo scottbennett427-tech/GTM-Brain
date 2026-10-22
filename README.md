@@ -30,12 +30,21 @@ original sources  →  reviewed knowledge  →  decision + rationale  →  task 
 | `sources/call.md` | Source: CALL-001 | Verbatim |
 | `sources/product.md` | Source: PROD-001 v1 | Verbatim |
 | `governance/rules.md` | Rules | Verbatim except reviewer name |
-| `knowledge/entities.csv` | Knowledge | candidate |
-| `knowledge/relationships.csv` | Knowledge | candidate |
-| `decisions/DEC-001.md` | Decision | proposed, review pending |
+| `knowledge/entities.csv` | Knowledge | reviewed (scott, 2026-10-22) |
+| `knowledge/relationships.csv` | Knowledge | reviewed (scott, 2026-10-22) |
+| `decisions/DEC-001.md` | Decision | approved (scott, 2026-10-22); outcome not observed |
 | `views/connections.md` | Derived view | Rebuilt from knowledge |
-| `context/current-task.md` | Task context | Created after review |
-| `tests/checks.md` | Checks | Created after review |
+| `context/current-task.md` | Task context | Draft built from reviewed rows + DEC-001, awaiting reviewer |
+| `tests/checks.md` | Checks | All Not run, awaiting observed answers |
+
+### Evidence format in `relationships.csv`
+
+- `evidence_excerpt` holds exact source text. When a row needs more than one
+  quote, the quotes are joined by ` || `.
+- When a row draws on two sources, `source_id` lists both (for example
+  `CALL-001;PROD-001`), and the quotes appear in the same order.
+- Relationships starting with `interpretation_` are judgments that connect a
+  customer need to a capability. They're not facts stated by any one source.
 
 ## Which source owns which claims
 

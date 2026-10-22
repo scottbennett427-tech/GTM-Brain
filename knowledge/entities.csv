@@ -1,10 +1,10 @@
 id,type,name,source_id,review_status
-ACCT-001,account,AlderWorks,CRM-001,candidate
-PERSON-001,person,Jordan Lee,CRM-001,candidate
-SYS-001,system,Salesforce (CRM used by AlderWorks),CRM-001,candidate
-NEED-001,customer_need,Reps prepare from scattered notes and sometimes use outdated product information,CALL-001,candidate
-REQ-001,customer_request,Asked whether SignalNest connects directly to Salesforce,CALL-001,candidate
-MEET-001,proposed_meeting,Follow-up suggested for October 27 (not confirmed),CALL-001,candidate
-PRODUCT-001,product,SignalNest,PROD-001,candidate
-CAP-001,capability,Creates preparation drafts from supplied notes and approved reference documents,PROD-001,candidate
-CAP-002,capability,Uses a manually supplied Salesforce export (native Salesforce integration not generally available),PROD-001,candidate
+ACCT-001,account,AlderWorks,CRM-001,reviewed
+PERSON-001,person,Jordan Lee,CRM-001,reviewed
+SYS-001,system,Salesforce (CRM used by AlderWorks),CRM-001,reviewed
+NEED-001,customer_need,Reps prepare from scattered notes and sometimes use outdated product information,CALL-001,reviewed
+REQ-001,customer_request,Asked whether SignalNest connects directly to Salesforce,CALL-001,reviewed
+MEET-001,proposed_meeting,Follow-up suggested for October 27 (not confirmed),CALL-001,reviewed
+PRODUCT-001,product,SignalNest,PROD-001,reviewed
+CAP-001,capability,Creates preparation drafts from supplied notes and approved reference documents,PROD-001,reviewed
+CAP-002,capability,Uses a manually supplied Salesforce export (native Salesforce integration not generally available),PROD-001,reviewed
