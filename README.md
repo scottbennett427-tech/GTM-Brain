@@ -28,11 +28,11 @@ original sources  →  reviewed knowledge  →  decision + rationale  →  task 
 |---|---|---|
 | `sources/account.md` | Source: CRM-001 | Verbatim |
 | `sources/call.md` | Source: CALL-001 | Verbatim |
-| `sources/product.md` | Source: PROD-001 v1 | Verbatim |
+| `sources/product.md` | Source: PROD-001 v2 (effective 2026-10-21) | Authorized fictional update; v1 kept in git history and DEC-001 |
 | `governance/rules.md` | Rules | Verbatim except reviewer name |
-| `knowledge/entities.csv` | Knowledge | reviewed (scott, 2026-10-22) |
-| `knowledge/relationships.csv` | Knowledge | reviewed (scott, 2026-10-22) |
-| `decisions/DEC-001.md` | Decision | approved (scott, 2026-10-22); outcome not observed |
+| `knowledge/entities.csv` | Knowledge | reviewed, except CAP-002 = candidate (changed by v2) |
+| `knowledge/relationships.csv` | Knowledge | reviewed, except REL-006 and REL-008 = candidate (changed by v2) |
+| `decisions/DEC-001.md` | Decision | approved (scott, 2026-10-22) on v1 evidence; v2 impact pending; outcome not observed |
 | `views/connections.md` | Derived view | Rebuilt from knowledge |
 | `context/current-task.md` | Task context | Draft built from reviewed rows + DEC-001, awaiting reviewer |
 | `tests/checks.md` | Checks | All Not run, awaiting observed answers |
@@ -52,11 +52,12 @@ original sources  →  reviewed knowledge  →  decision + rationale  →  task 
 |---|---|---|---|
 | CRM-001 | Revenue Operations | Account identity and CRM fields (name, contact, CRM used, budget = Unknown) | What the customer said, product facts |
 | CALL-001 | Account Executive | What the customer said and asked | Product availability or capabilities |
-| PROD-001 v1 | Product Marketing | Approved capabilities and claims | Customer needs or account fields |
+| PROD-001 v2 | Product Marketing | Approved capabilities and claims | Customer needs, account fields or a customer's pilot eligibility |
 
-**Customer interest doesn't establish product availability.** Jordan asked about a
-direct Salesforce connection (CALL-001), but PROD-001 v1 says native Salesforce
-integration is not generally available. Only a manual export is supported.
+**Customer interest doesn't establish product availability or eligibility.** Jordan
+asked about a direct Salesforce connection (CALL-001). PROD-001 v2 says native
+Salesforce integration is available to approved pilot customers only, and no
+source shows AlderWorks is one. A manual export is still supported.
 
 ## Review workflow
 

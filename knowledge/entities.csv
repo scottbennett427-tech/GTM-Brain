@@ -7,4 +7,4 @@ REQ-001,customer_request,Asked whether SignalNest connects directly to Salesforc
 MEET-001,proposed_meeting,Follow-up suggested for October 27 (not confirmed),CALL-001,reviewed
 PRODUCT-001,product,SignalNest,PROD-001,reviewed
 CAP-001,capability,Creates preparation drafts from supplied notes and approved reference documents,PROD-001,reviewed
-CAP-002,capability,Uses a manually supplied Salesforce export (native Salesforce integration not generally available),PROD-001,reviewed
+CAP-002,capability,Native Salesforce integration for approved pilot customers only; manually supplied Salesforce export still supported,PROD-001,candidate
