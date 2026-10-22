@@ -1,7 +1,7 @@
 # Current task: prepare the next AlderWorks touchpoint
 
 Draft rebuilt 2026-10-22 after PROD-001 version 2 (effective 2026-10-21).
-File status: **draft, awaiting reviewer (scott)**. Saving it doesn't approve it.
+File status: **approved by scott, 2026-10-22**.
 Fictional training data only.
 
 ## Status at a glance
@@ -9,9 +9,8 @@ Fictional training data only.
 | Item | Status |
 |---|---|
 | Product source in use | **PROD-001 version 2**, effective 2026-10-21 (supersedes v1, 2026-10-19) |
-| Knowledge rows changed by v2 | **candidate**: CAP-002, REL-006, REL-008 |
-| All other knowledge rows | reviewed (scott, 2026-10-22) |
-| DEC-001 next demonstration | **approved** (scott, 2026-10-22) on PROD-001 v1 evidence; **v2 impact review pending** |
+| Knowledge rows | all 18 reviewed (scott, 2026-10-22); CAP-002, REL-006, REL-008 re-reviewed on v2 |
+| DEC-001 next demonstration | **approved** (scott, 2026-10-22) on PROD-001 v1 evidence; **v2 impact note approved** (scott, 2026-10-22) |
 | Follow-up date | **tentative**: October 27 suggested, not confirmed |
 | Demonstration outcome | **not observed** |
 
@@ -41,7 +40,7 @@ approved product reference (PROD-001 v2) into a preparation brief. Use a
 manually supplied Salesforce export (CAP-002) as the CRM input.
 
 Status: approved by scott on 2026-10-22 on PROD-001 v1 evidence. The v2 impact
-note (recommendation unchanged) is **pending review**.
+note (recommendation unchanged) was approved by scott on 2026-10-22.
 
 ## Rationale
 
@@ -52,11 +51,11 @@ note (recommendation unchanged) is **pending review**.
    approved pilot customers (PROD-001 v2), and no source shows AlderWorks is
    one, so the demo uses the manual export.
 
-## Answer to the Salesforce question (PROD-001 v2; rows candidate)
+## Answer to the Salesforce question (PROD-001 v2; rows reviewed)
 
 Jordan asked whether SignalNest connects directly to Salesforce (REQ-001). The
 rep said this needs confirmation. PROD-001 v2:
-"Native Salesforce integration is available to approved pilot customers only. A manually supplied Salesforce export can still be used." (REL-008, interpretation, candidate)
+"Native Salesforce integration is available to approved pilot customers only. A manually supplied Salesforce export can still be used." (REL-008, interpretation, reviewed)
 
 So native integration is **not generally available**. AlderWorks' pilot
 approval is **unknown**. Customer interest doesn't establish eligibility.
@@ -82,7 +81,6 @@ approval is **unknown**. Customer interest doesn't establish eligibility.
 
 - Based on three fictional sources only. There's no live CRM or call system behind them.
 - No connector: the Salesforce data in a demo comes from a manual export.
-- The rows changed by v2 (CAP-002, REL-006, REL-008) and the DEC-001 v2 impact note aren't reviewed yet.
 - The approval covers the demo plan. It doesn't confirm the date, the deal or pilot eligibility.
 - The outcome hasn't been observed. Record it in DEC-001 after the touchpoint.
 

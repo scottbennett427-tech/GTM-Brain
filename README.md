@@ -30,12 +30,12 @@ original sources  →  reviewed knowledge  →  decision + rationale  →  task 
 | `sources/call.md` | Source: CALL-001 | Verbatim |
 | `sources/product.md` | Source: PROD-001 v2 (effective 2026-10-21) | Authorized fictional update; v1 kept in git history and DEC-001 |
 | `governance/rules.md` | Rules | Verbatim except reviewer name |
-| `knowledge/entities.csv` | Knowledge | reviewed, except CAP-002 = candidate (changed by v2) |
-| `knowledge/relationships.csv` | Knowledge | reviewed, except REL-006 and REL-008 = candidate (changed by v2) |
-| `decisions/DEC-001.md` | Decision | approved (scott, 2026-10-22) on v1 evidence; v2 impact pending; outcome not observed |
+| `knowledge/entities.csv` | Knowledge | reviewed (scott, 2026-10-22); CAP-002 re-reviewed on v2 |
+| `knowledge/relationships.csv` | Knowledge | reviewed (scott, 2026-10-22); REL-006, REL-008 re-reviewed on v2 |
+| `decisions/DEC-001.md` | Decision | approved (scott, 2026-10-22) on v1 evidence; v2 impact note approved; outcome not observed |
 | `views/connections.md` | Derived view | Rebuilt from knowledge |
-| `context/current-task.md` | Task context | Draft built from reviewed rows + DEC-001, awaiting reviewer |
-| `tests/checks.md` | Checks | All Not run, awaiting observed answers |
+| `context/current-task.md` | Task context | Approved (scott, 2026-10-22); uses PROD-001 v2 |
+| `tests/checks.md` | Checks | v2: 5 Run, all Pass (scott, 2026-10-22); v1: 5 Not run (superseded) |
 
 ### Evidence format in `relationships.csv`
 

@@ -10,6 +10,7 @@ both are supplied.
 Sources: CRM-001 (2026-10-19), CALL-001 (2026-10-19), PROD-001 v2 (2026-10-21).
 Run 2026-10-22 against `context/current-task.md` at commit e6abdba. Judgments supplied by scott.
 A Pass on a check doesn't approve any knowledge row or decision.
+Statuses quoted in these results were accurate at e6abdba. Later approvals (scott, 2026-10-22) are recorded in DEC-001; rerun after the next refresh.
 
 | ID | Question | Expected answer | Source | Observed answer | Reviewer judgment | Status |
 |---|---|---|---|---|---|---|
@@ -37,5 +38,5 @@ These weren't judged before v2 took effect, so they stay Not run.
 - Claims native Salesforce integration is generally available, or that AlderWorks is pilot-approved
 - States a budget figure, purchase timing or a confirmed date
 - Gives a quantified time-saving claim
-- Reports a review status that differs from the files (for example, calling v2 rows reviewed)
+- Reports a review status that differs from the files (for example, calling a candidate row reviewed)
 - Cites a source that doesn't own the claim (for example, citing CALL-001 for product availability)
